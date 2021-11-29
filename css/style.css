@@ -1,0 +1,1481 @@
+/*
+    Theme name: SpeedyNFTs
+    Description : Theme made for speedyNFTs
+    Tags : NFT, Cars, Showcase, SPA
+    Author : Christopher Brummer
+    
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap');
+.body{
+    scroll-behavior: smooth;
+}
+
+
+#logo{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+
+.items{
+    position: absolute;
+    display:inline-flex;
+    margin-left: 15%;
+    top:4em;
+ 
+
+
+
+    
+}
+
+
+
+.items li{
+    margin-right: 50%;
+    font-size: 18px;
+    line-height: 1em;
+    list-style: none;
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+  
+
+    color: #314D4A;
+}
+
+.hero-car-txt{
+    position: absolute;
+    right: 12%;
+    top: 70%;
+}
+
+.hero-car-txt p {
+   font-size: 3em;
+}
+
+.hero-heading{
+    position: absolute;
+    top: 30%;
+    left: 5em;
+    width: 25em;
+   
+}
+#highlight-txt{
+    font-weight: bold;
+}
+
+.hero-heading img{
+   
+    width: 36em;
+   
+}
+
+.hero-txt{
+    position: absolute;
+    top: 15em;
+    left: 3em;
+    width: 565px;
+    height: 108px;
+    color: #22627F;
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 2em;
+}
+
+.hero-buttons{
+    position: absolute;
+    top: 40em;
+    left: 5em;
+    margin-top: 5em;
+}
+
+#hotel-back{
+    position: absolute;
+    right: 0em;
+    top:0.1em;
+    width: 70em;
+    height: 55em;
+    z-index:-2;
+}
+
+#hero-hotel{
+    position: absolute;
+    right: 11.5em;
+    top:6.9em;
+    z-index: -1;
+}
+
+#hero-car{
+    position: absolute;
+    right: 7em;
+    top:25em; 
+    z-index: 1;
+}
+
+#discord-btn{
+   
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+
+
+background: #FFFFFF;
+border-radius: 10px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 15px;
+}
+
+#twitter-btn{
+
+ align-items: center;
+ padding: 10px;
+ 
+ background: #02A9E4;
+ color: white;
+
+ border-radius: 10px;
+ 
+ /* Inside Auto Layout */
+ 
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+ margin: 0px 15px;
+ }
+
+ .rarity-section-container{
+     position: absolute;
+     height: 150%;
+     width: 100%;
+     top: 60em;
+     left: 0;
+     background-color:rgba(44, 44, 43, 1) ;
+     z-index: -2;
+ }
+
+ #banner{
+     width: 100%;
+     z-index: -1;
+ }
+
+ #star-bg1{
+     position: absolute;
+     width: 60em;
+     height: 70em;
+     top: 0;
+     z-index: -1;
+     
+}
+
+#star-bg2{
+    position: absolute;
+    width: 60em;
+    height: 70em;
+    right: 0em;
+    bottom: 0em;
+    z-index: -1;
+}
+
+.sec-nav{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+}
+
+
+
+.sec-nav h2{
+    text-align: center; 
+    position: static;
+    width: 475px;
+    height: 50px;
+    left: 239px;
+    top: 0px;
+    
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 120%;
+    /* or 50px */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+/* #FAD6A5 */
+
+color: #FAD6A5;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+    position: static;
+    
+    
+    
+}
+.button-group button{
+
+    font-family: SF Compact Rounded;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 141%;
+/* or 28px */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+/* #FAD6A5 */
+
+color: #FAD6A5;
+width: auto;
+height: 48px;
+left: 309px;
+top: 0px;
+padding: 10px 25px;
+background-color: #02a8e400;
+/* #FAD6A5 */
+opacity: 0.8;
+border: 1px solid #FAD6A5;
+box-sizing: border-box;
+border-radius: 83px;
+color:#FAD6A5 ;
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 12px;
+}
+.car-cards{
+    height: 100%;
+    
+}
+.card{
+    
+    position: absolute;
+    top: 21em;
+    margin-left: 10em;
+}
+
+.card2{
+    
+    position: absolute;
+    top: 21em;
+    left: 35em;
+}
+
+.card3{
+    
+    position: absolute;
+    top: 21em;
+    left: 60em;
+}
+
+.card4{
+    position: absolute;
+    top: 21em;
+    right : 5em;
+}
+
+.card5{
+    
+    position: absolute;
+    top: 48em;
+    margin-left: 10em;
+}
+
+.card6{
+    
+    position: absolute;
+    top: 48em;
+    left: 35em;
+}
+
+.card7{
+    
+    position: absolute;
+    top: 48em;
+    left: 60em;
+}
+
+.card8{
+    position: absolute;
+    top: 48em;
+    right : 5em;
+}
+
+.card-car{
+    
+    
+        position: absolute;
+        top: 10em;
+        left: -1em;
+        box-shadow: white;
+        
+}
+
+
+.showroom-container {
+    position: absolute;
+    top: 143em;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  
+}
+
+.showroom-container img{
+   
+    width: 100%;
+    
+  
+}
+
+.showroom-container h2{
+    position: absolute;
+    width: 173px;
+    height: 36px;
+    left: calc(50% - 173px/2);
+    top: 2.5em;
+    font-weight: bolder;
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    /* identical to box height, or 36px */
+
+    
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 18px 0px;
+}
+
+.showroom-container p{
+    position: absolute;
+    width: auto;
+    height: 29px;
+    left: calc(45% - 173px/2);
+    top: 6em;
+    
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* #FFFFFF */
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 18px 0px;
+
+}
+
+.showroom-container button{
+   
+    position: absolute;
+    top: 12em;
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    left: 37%;
+    text-transform: uppercase;
+    width: 422px;
+    height: 50px;
+    line-height: 141%;
+    /* or 28px */
+    color:white;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    background: linear-gradient(90.71deg, #10F2B0 0.15%, #E66DF6 100%);
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.44);
+    border-radius: 10px;
+}
+
+.story-container {
+    position: absolute;
+    position: absolute;
+    z-index: -3;
+    top: 163em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(223, 127, 98, 1);
+    z-index: 1;
+  
+}
+
+
+#bg-patern{
+    width: 100%;
+    height: 100%;
+}
+
+.story-car img{
+    position: absolute;
+    bottom: 0;
+    
+}
+.story-txt{
+
+position: absolute;
+width: 925px;
+height: 220px;
+left: 25%;
+top: 8%;
+
+
+}
+
+.story-txt p{
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    margin-top: 8%;
+    
+    /* #FFFFFF */
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+#story-banner{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    z-index: 5;
+}
+
+.roadmap-section{
+    position: absolute;
+    top: 218em;
+    height: 80%;
+    z-index: -1;
+}
+
+#road{
+    position: absolute;
+    z-index:-1 ;
+    top: 0;
+    left:-1em;
+    height: 100%;
+}
+
+.roadmap-txt{
+    position: absolute;
+    width: 40em;
+    height: 29px;
+    left: 60em;
+    top: 10%;
+}
+
+.roadmap-txt h2{
+    font-family: SF Compact Rounded;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 100%;
+/* identical to box height, or 36px */
+
+
+color: #21566D;
+}
+
+.roadmap-txt p{
+    
+
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    
+    font-size: 24px;
+    line-height: 128.5%;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+
+    color: #21566D;
+}
+
+#main-letter{
+    font-weight: bolder;
+    margin-right:0.51em;
+}
+
+
+#gear{
+    position: absolute;
+    bottom: 4.5em;
+    width: 25em;
+    left: 27em;
+    
+}
+
+
+.the-club{
+    position: absolute;
+    top: 262.5em;
+    width: 100%;
+    height:48%;
+    background: linear-gradient(90deg, #788B6F 27.57%, #ADC4A2 100%);
+    left:0;
+    z-index: 1;
+
+}
+
+#hotel-club{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#lead-car{
+    position: absolute;
+    bottom: 7em;
+    right: 1em;
+    z-index: 0;
+}
+
+#back-car{
+    position: absolute;
+    bottom: 10em;
+    right: 12em;
+    z-index:-1;
+}
+
+#follow-car{
+    position: absolute;
+    bottom: 13em;
+    right: 22em;
+    z-index: -2;
+}
+
+#club-banner{
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+
+}
+.club-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 483px;
+    height: 151px;
+    left: 105px;
+    top: 72px;
+}
+.club-content h2{
+    position: static;
+    width: 139px;
+    height: 36px;
+    left: calc(50% - 139px/2 - 172px);
+    top: 0em;
+
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    /* identical to box height, or 36px */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 18px 0px;
+}
+.club-content p{
+    position: static;
+    width: 483px;
+    height: 29px;
+    left: 0px;
+    top: 5em;
+
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* #FFFFFF */
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 18px 0px;
+}
+.club-content button{
+    position: absolute;
+    top: 9em;
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    left: 0;
+    text-transform: uppercase;
+    width: 422px;
+    height: 50px;
+    line-height: 141%;
+    /* or 28px */
+    color:white;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    background: #314D4A;
+    
+    border-radius: 10px;
+}
+
+.footer-container{
+    position: absolute;
+    top: 289em;
+    height: 50%;
+    width: 100%;
+    left: 0;
+    background: rgba(33, 86, 109, 1);
+}
+
+#foot-pattern{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#foot-logo{
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+    right: 50%;
+    top: 5em;
+    
+}
+
+.foot-txt{
+    position: absolute;
+width: 866px;
+height: 58px;
+left: 25%;
+
+top: 10em;
+
+font-family: SF Compact Rounded;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: white;
+}
+
+.foot-buttons{
+    position: absolute;
+    bottom: 2em;
+    left: 37%;
+}
+
+@media only screen and (max-width: 1200px){
+
+   .hero-car-txt{
+    top: 34em;
+    right: 10em;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.hero-heading{
+    position: absolute;
+    top: 30%;
+    left: 5em;
+    width: 30%;
+   
+}
+
+
+.hero-heading img{
+   
+    width: 15em;
+   
+}
+
+.hero-txt{
+    position: absolute;
+    top: 10em;
+    left: 3em;
+    width: 30%;
+    height: 108px;
+    color: #22627F;
+    font-family: SF Compact Rounded;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 2em;
+}
+
+.hero-buttons{
+    position: absolute;
+    top: 40em;
+    left: 5em;
+    margin-top: 5em;
+}
+
+#hotel-back{
+    position: absolute;
+    right: 0em;
+    top:0.1em;
+    width: 70em;
+    height: 55em;
+    z-index:-2;
+}
+
+#hero-hotel{
+    position: absolute;
+    right: 4em;
+    top:6.9em;
+    z-index: -1;
+}
+
+#hero-car{
+    position: absolute;
+    right: 4em;
+    top:24em; 
+    z-index: 1;
+}
+
+.rarity-section-container{
+    position: absolute;
+    height: 150em;
+    width: 100%;
+    top: 60em;
+    left: 0;
+    background-color:rgba(44, 44, 43, 1) ;
+    z-index: -2;
+}
+
+.card{
+    
+    position: absolute;
+    top: 21em;
+    margin-left: 10em;
+}
+
+.card2{
+    
+    position: absolute;
+    top: 21em;
+    left: 35em;
+}
+
+.card3{
+    
+    position: absolute;
+    top: 48em;
+    left: 10em;
+}
+
+.card4{
+    position: absolute;
+    top: 48em;
+    right : 9em;
+}
+
+.card5{
+    
+    position: absolute;
+    top: 75em;
+    margin-left: 10em;
+}
+
+.card6{
+    
+    position: absolute;
+    top: 75em;
+    right: 9em;
+}
+
+.card7{
+    
+    position: absolute;
+    top: 102em;
+    left: 10em;
+}
+
+.card8{
+    position: absolute;
+    top: 102em;
+    right : 9em;
+}
+
+.showroom-container{
+    top: 200em;
+}
+.showroom-container h2{
+    top: 1em;
+}
+
+.showroom-container p{
+    top: 3.5em;
+}
+.showroom-container button{
+    top: 8em;
+    left: 31%;
+}
+
+.story-container{
+    top: 210em;
+    height: 120%;
+}
+
+.story-container p{
+    width: 50%;
+}
+.roadmap-section{
+    top: 274em;
+    max-width: 100%;
+}
+
+#road{
+    visibility: hidden;;
+}
+
+#gear{
+    left:0em;
+    width: 15em;
+    top: 11em;
+}
+
+.roadmap-txt{
+    left: 18em;
+    
+}
+
+.the-club{
+    top: 317em;
+}
+
+.club-content{
+    left: 0.9em;
+}
+
+#hotel-club{
+    max-width: 10em;
+    right: 0;
+    z-index: -2;
+}
+
+#lead-car{
+    width: 25em;
+    right:-1em;
+    top: 6em;
+}
+
+#back-car{
+    width: 25em;
+    right: 7em;
+    top: 2em;
+}
+
+#follow-car{
+    width: 25em;
+    right: 13em;
+    top: 1em;
+}
+
+.footer-container{
+    top: 342.5em;
+    max-width: 100%;
+    left: 0;
+}
+
+.foot-txt{
+    max-width: 25em;
+    left: 20%;
+}
+
+#foot-logo{
+    left: 38%;
+    max-width: 14em;
+}
+
+.foot-buttons{
+left: 32%;
+}
+
+}
+
+@media only screen and (max-width: 900px){
+
+    .hero-car-txt{
+     top: 34em;
+     right: 10em;
+ }
+ 
+ body{
+     overflow-x: hidden;
+ }
+ 
+ 
+ .hero-heading{
+     position: absolute;
+     top: 18%;
+     left: 5em;
+     width: 30%;
+    
+ }
+ 
+ 
+
+ 
+ .hero-txt{
+     position: absolute;
+     top: 5em;
+     left: 3em;
+     width: 20%;
+     height: 108px;
+     color: #22627F;
+     font-family: SF Compact Rounded;
+     font-style: normal;
+     font-weight: 200;
+     font-size: 30px;
+     line-height: 36px;
+     margin-top: 2em;
+ }
+ 
+
+ 
+ .rarity-section-container{
+     position: absolute;
+     height: 150em;
+     width: 100%;
+     top: 60em;
+     left: 0;
+     background-color:rgba(44, 44, 43, 1) ;
+     z-index: -2;
+ }
+
+ .sec-nav{
+     max-width: 90%;
+     left: 50%;
+ }
+
+ .button-group button{
+    margin-right: 0.2em;
+    min-width: 5em;
+    font-size: normal;
+    padding: 0.4em;
+ }
+
+
+
+ .card{
+     
+     position: absolute;
+     top: 21em;
+     margin-left: 2em;
+ }
+ 
+ .card2{
+     
+     position: absolute;
+     top: 21em;
+     left: 35em;
+ }
+ 
+ .card3{
+     
+     position: absolute;
+     top: 48em;
+     left: 2em;
+ }
+ 
+ .card4{
+     position: absolute;
+     top: 48em;
+     left: 35em;
+ }
+ 
+ .card5{
+     
+     position: absolute;
+     top: 75em;
+     margin-left: 2em;
+ }
+ 
+ .card6{
+     
+     position: absolute;
+     top: 75em;
+     left: 35em;
+ }
+ 
+ .card7{
+     
+     position: absolute;
+     top: 102em;
+     left: 2em;
+ }
+ 
+ .card8{
+     position: absolute;
+     top: 102em;
+     left: 35em;
+ }
+ 
+
+
+ 
+ }
+
+@media only screen and (max-width: 700px){
+
+    .hero-car-txt{
+        top: 34em;
+        right: 8em;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+   #hero-hotel{
+       right: 0em;
+   }
+   #hero-car{
+       right: 0em;
+   }
+
+    .hero-heading{
+        position: absolute;
+        top: 18%;
+        left: 5em;
+        width: 30%;
+       
+    }
+    
+    
+   
+    
+    .hero-txt{
+        position: absolute;
+        top: 5em;
+        left: 3em;
+        width: 20%;
+        height: 108px;
+        color: #22627F;
+        font-family: SF Compact Rounded;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 2em;
+    }
+    
+   
+    
+    .rarity-section-container{
+        position: absolute;
+        height: 150em;
+        width: 100%;
+        top: 60em;
+        left: 0;
+        background-color:rgba(44, 44, 43, 1) ;
+        z-index: -2;
+    }
+   
+    .sec-nav{
+        max-width: 90%;
+        left: 50%;
+    }
+   
+    .button-group button{
+       margin-right: 0.2em;
+       min-width: 5em;
+       font-size: normal;
+       padding: 0.4em;
+    }
+   
+   
+   
+    .card{
+        
+        position: absolute;
+        top: 21em;
+        margin-left: 2em;
+    }
+    
+    .card2{
+        
+        position: absolute;
+        top: 21em;
+        left: 32em;
+    }
+    
+    .card3{
+        
+        position: absolute;
+        top: 48em;
+        left: 2em;
+    }
+    
+    .card4{
+        position: absolute;
+        top: 48em;
+        left: 32em;
+    }
+    
+    .card5{
+        
+        position: absolute;
+        top: 75em;
+        margin-left: 2em;
+    }
+    
+    .card6{
+        
+        position: absolute;
+        top: 75em;
+        left: 32em;
+    }
+    
+    .card7{
+        
+        position: absolute;
+        top: 102em;
+        left: 2em;
+    }
+    
+    .card8{
+        position: absolute;
+        top: 102em;
+        left: 32em;
+    }
+    
+   .showroom-container h2{
+     top: 0.5em;
+   }
+
+   .showroom-container p{
+    top: 3em;
+  }
+
+  .showroom-container button{
+    top: 7em;
+    left: 29%;
+  }
+ #story-banner{
+     width: 2em;
+    
+ }
+
+ .roadmap-txt{
+     font-size: small;
+     left: 20em;
+ }
+
+ .club-content p{
+     font-size: 1.1em;
+ }
+        
+}
+
+@media only screen and (max-width: 500px){
+
+    .hero-car-txt{
+        top: 34em;
+        right: 8em;
+        visibility: hidden;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+   .hero-img{
+       visibility: hidden;
+   }
+
+    .hero-heading{
+        position: absolute;
+        top: 18%;
+        left: 10em;
+        width: 30%;
+       
+    }
+
+    #logo{
+        left: 40%;
+    }
+    
+    
+   .items{
+       visibility: hidden;
+   }
+    
+    .hero-txt{
+        position: absolute;
+        top: 5em;
+        left: 35%;
+        width: 50%;
+        height: 108px;
+        color: #22627F;
+        font-family: SF Compact Rounded;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 2em;
+    }
+    
+   
+    
+    .rarity-section-container{
+        position: absolute;
+        height: 260em;
+        width: 100%;
+        top: 60em;
+        left: 0;
+        background-color:rgba(44, 44, 43, 1) ;
+        z-index: -2;
+    }
+   
+    .sec-nav{
+        
+        left: 50%;
+    }
+
+    .button-group {
+       
+        width: 30%;
+        font-size: normal;
+        padding: 0.1em;
+     }
+   
+    .button-group button{
+       margin-right: 0.2em;
+       min-width: 8em;
+       font-size: 0.5em;
+       padding: 0.1em;
+    }
+   
+   
+   
+    .card{
+        
+        position: absolute;
+        top: 15em;
+        margin-left: 2em;
+        left: 3em;
+    }
+    
+    .card2{
+        
+        position: absolute;
+        top: 45em;
+        left: 6em;
+    }
+    
+    .card3{
+        
+        position: absolute;
+        top: 75em;
+        left: 6em;
+    }
+    
+    .card4{
+        position: absolute;
+        top: 105em;
+        left: 6em;
+    }
+    
+    .card5{
+        
+        position: absolute;
+        top: 135em;
+        left: -4em;
+    }
+    
+    .card6{
+        
+        position: absolute;
+        top: 165em;
+        left: 6em;
+    }
+    
+    .card7{
+        
+        position: absolute;
+        top: 195em;
+        left: 6em;
+    }
+    
+    .card8{
+        position: absolute;
+        top: 225em;
+        left: 6em;
+    }
+    
+    .showroom-container{
+        top: 320em;
+        
+      }
+
+    .showroom-container img{
+        height: 15em;
+    }
+
+   .showroom-container h2{
+     top: 0.5em;
+   }
+
+   .showroom-container p{
+    top: 3em;
+    left: 4em;
+  }
+
+  .showroom-container button{
+    top: 7em;
+    left: 7%;
+  }
+ #story-banner{
+     width: 2em;
+    
+ }
+
+ .roadmap-section{
+     top: 395em;
+ }
+
+ .roadmap-txt{
+     font-size: 0.5em;
+     left: 4em;
+    
+ }
+
+ #gear{
+     visibility: hidden;
+ }
+
+ .story-container{
+     top: 330em;
+ }
+
+ .story-container p{
+    width: 30%;
+ }
+
+ .story-car{
+     visibility: hidden;
+ }
+ .club-content p{
+     font-size: 1.1em;
+ }
+
+ .the-club{
+     top: 440em;
+ }
+
+ #follow-car{
+     visibility: hidden;
+ }
+
+ #back-car{
+    visibility: hidden;
+}
+#lead-car{
+    visibility: hidden;
+}
+
+#hotel-club{
+    visibility: hidden;
+}
+
+
+ .footer-container{
+     top: 466.1em;
+ }
+
+ #foot-logo{
+     left: 8em;
+ }
+
+ .foot-txt{
+     width: 16em;
+     left:2em ;
+     top: 8em;
+ }
+
+ .foot-buttons{
+     left: 3em;
+ }
+        
+}
