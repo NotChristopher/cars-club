@@ -312,7 +312,7 @@ margin: 10px 12px;
 
 .showroom-container {
     position: absolute;
-    top: 475%;
+    top: 520%;
     left: 0;
     width: 100vw;
     height: 40vh;
@@ -401,10 +401,10 @@ margin: 10px 12px;
     
     position: absolute;
     z-index: -3;
-    top: 510%;
+    top: 550%;
     left: 0;
     width: 100vw;
-    height: 100%;
+    height: fit-content;
     background-color: rgba(223, 127, 98, 1);
    
     
@@ -460,7 +460,7 @@ right: 15%;
 
 .roadmap-section{
     position: absolute;
-    top: 620%;
+    top: 640%;
     height: 80%;
     width: 100vw;
     
