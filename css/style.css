@@ -312,7 +312,7 @@ margin: 10px 12px;
 
 .showroom-container {
     position: absolute;
-    top: 520%;
+    top: 550%;
     left: 0;
     width: 100vw;
     height: 40vh;
@@ -401,7 +401,7 @@ margin: 10px 12px;
     
     position: absolute;
     z-index: -3;
-    top: 550%;
+    top: 590%;
     left: 0;
     width: 100vw;
     height: fit-content;
@@ -460,7 +460,7 @@ right: 15%;
 
 .roadmap-section{
     position: absolute;
-    top: 640%;
+    top: 680%;
     height: 80%;
     width: 100vw;
     
@@ -527,7 +527,7 @@ color: #21566D;
 
 .the-club{
     position: absolute;
-    top: 689%;
+    top: 729%;
     width: 100%;
     height:48%;
     background: linear-gradient(90deg, #788B6F 27.57%, #ADC4A2 100%);
@@ -661,7 +661,7 @@ color: #21566D;
 .footer-container{
     
     position: absolute;
-    top:730%;
+    top:780%;
     height: 100%;
     max-width: 100vw;
     left: 0;
